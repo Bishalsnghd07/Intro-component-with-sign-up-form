@@ -25,9 +25,13 @@ export default function Home() {
   }
 
   const validatePassword = (password: string) => {
+    const uppercaseRegex = /[A-Z]/;
     if (password.trim() === '') {
       setPasswordError('Password cannot be empty')
-    } else if (password.length<=8) {
+    } else if (!uppercaseRegex.test(password)) {
+      setPasswordError('First character of Password should be Capital')
+    }
+     else if (password.length<=8) {
       setPasswordError('Please enter a valid password(atleast 8 characters)')
     } else {
       setPasswordError('');
@@ -45,21 +49,18 @@ export default function Home() {
 
     if (!validateFirstName(firstNameInput.value)){
       setFirstNameError('First Name cannot be empty');
-      return;
     } else {
       setFirstNameError('');
     }
 
     if (!validateLastName(lastNameInput.value)){
       setLastNameError('Last Name cannot be empty');
-      return;
     } else {
       setLastNameError('');
     }
 
     if(!validateEmail(emailInput.value)) {
       setEmailError('Email cannot be empty');
-      return;
     } else {
       setEmailError('');
     }
@@ -70,7 +71,6 @@ export default function Home() {
     }
     setSuccessMessage('Thanks for signing up!')
     setFormSubmitted('true');
-    // alert('Form has been submitted');
   }
   return (
     <main className="flex font-poppins min-h-screen flex-col items-center justify-center p-8 bg-no-repeat bg-center bg-cover bg-[url('/images/bg-intro-desktop.png')] bg-red-400">
@@ -129,7 +129,8 @@ export default function Home() {
 
   <button type="submit" className="text-white bg-green-700 hover:bg-purple-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg md:text-xl w-full py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-card">CLAIM YOUR FREE TRIAL</button>
   <p className="mt-4 w-full text-gray-600 tracking-tight text-center md:text-left">By clicking the button, you are agreeing to our{" "}
-  <a href="https://github.com/Bishalsnghd07?tab=repositories" className="text-amber-800 font-semibold text-sm">Terms and Services</a>
+  <a href="https://github.com/Bishalsnghd07?tab=repositories" className="text-amber-800 font-semibold text-sm group">Terms and Services
+  </a>
   </p>
 </form>
   )} {formSubmitted && (
