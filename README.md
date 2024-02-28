@@ -24,7 +24,13 @@ In addition, I added some *password format validation, focus-visible outline, tr
 
 ## Screenshot
 
-![Design preview for the Social proof section coding challenge](/public/design/desktop-design.jpg)
+![Design preview for the Social proof section coding challenge](/public/design/screenshot-a.jpg)
+
+![Design preview for the Social proof section coding challenge](/public/design/screenshot-b.jpg)
+
+![Design preview for the Social proof section coding challenge](/public/design/screenshot-c.jpg)
+
+![Design preview for the Social proof section coding challenge](/public/design/screenshot-d.jpg)
 
 ## Links
 - Solution URL: https://github.com/Bishalsnghd07/Intro-component-with-sign-up-form
@@ -55,6 +61,18 @@ In addition, I added some *password format validation, focus-visible outline, tr
 - **MObile First Workflow**
 - **JS Library**
 
+## What I learned
+
+Client side form validation was tough, I was away from javascript. So, first I learnt Javascript basics, then I understand how DOM manipulation works, how event listener works.
+
+I do it all myself using vanilla JS and React.useState(hooks) to manage all of the input validation.
+
+I can be use react form which is JavaScript library to maintain code flow but, I enjoy to dirty my hand on pure JavaScript and I quite enjoy it.
+
+Also, play with `useState` hooks too much to manage state and render to successfull thanks form page. When form is not submitted we show the *Error validation* and form should not be submitted by calling "formSubmitted(false)" and when form is submitted we manage the data in `useState` hook and display the **thanks page** by using "formSubmitted(true)"
+
+*Overall, I'm happy with my progress and want to dip dive more in javascript.*
+
 ## Continued Development
 - Organised code to enhance **reusability** and **readibility** in many concerns, what I did it, I make different organised component for the **form** and passed as a *prop* in the main component, to maintain *code quality* and *code cleaniliness*.
 - I would love to work on **tailwind CSS** and would *explore* more **JS Library** and will continue *implement* in my further projects.
@@ -63,5 +81,6 @@ In addition, I added some *password format validation, focus-visible outline, tr
 
 # 👨‍💻Author
 
+- My Youtube Channel - [FrontendFineness](https://www.youtube.com/@frontendfineness985/videos)
 - Website - [intro component using sign up web page](https://intro-component-with-sign-up-form-two-murex.vercel.app/)
 - Frontend Mentor - [@Bishalsnghd07](https://www.frontendmentor.io/profile/Bishalsnghd07)
