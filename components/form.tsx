@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 export default function Form() { 
@@ -11,7 +10,7 @@ export default function Form() {
     
     
     const validateFirstName = (firstName: string) => {
-      return firstName.length>4;
+      return firstName.length>=1;
     }
     
     const validateLastName = (lastName: string) => {
