@@ -6,7 +6,7 @@ This is a solution to the [Intro component with sign-up form](https://www.fronte
 
 Thanks for checking out this front-end coding challenge.
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+**To do this challenge, need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
 
