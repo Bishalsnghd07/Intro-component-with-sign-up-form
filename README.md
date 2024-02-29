@@ -24,13 +24,13 @@ In addition, I added some *password format validation, focus-visible outline, tr
 
 ## Screenshot
 
-![Design preview for the Social proof section coding challenge](/public/design/screenshot-a.jpg)
+![Design preview for the Social proof section coding challenge](/public/design/screenshot-a.png)
 
-![Design preview for the Social proof section coding challenge](/public/design/screenshot-b.jpg)
+![Design preview for the Social proof section coding challenge](/public/design/screenshot-b.png)
 
-![Design preview for the Social proof section coding challenge](/public/design/screenshot-c.jpg)
+![Design preview for the Social proof section coding challenge](/public/design/screenshot-c.png)
 
-![Design preview for the Social proof section coding challenge](/public/design/screenshot-d.jpg)
+![Design preview for the Social proof section coding challenge](/public/design/screenshot-d.png)
 
 ## Links
 - Solution URL: https://github.com/Bishalsnghd07/Intro-component-with-sign-up-form
