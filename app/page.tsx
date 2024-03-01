@@ -8,9 +8,9 @@ export default function Home() {
     <main className="flex font-poppins min-h-screen flex-col items-center justify-center p-8 bg-no-repeat bg-center bg-cover bg-[url('/images/bg-intro-desktop.png')] bg-red-400">
       <section className="grid grid-cols-1 md:grid-cols-2 gap-[3rem] md:gap-[4rem] w-full">
         <div className="flex flex-col items-end md:items-end md:justify-center rounded-xl text-center md:text-left">
-          <div className="bg-amber-800 shadow-card p-6 rounded-lg">
-        <h1 className="text-white text-3xl md:text-5xl font-bold w-full max-w-[24.2rem]">Learn to code by watching others</h1>
-        <p className="text-white font-medium mt-4 md:mt-8 text-md text-center md:text-left max-w-[23.6rem]">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+          <div className="bg-amber-800 shadow-card p-6 rounded-lg max-w-[29.8rem]">
+        <h1 className="text-white text-3xl md:text-5xl font-bold w-full">Learn to code by watching others</h1>
+        <p className="text-white font-medium mt-4 md:mt-8 text-md text-center md:text-left ">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
           </div>
         </div>
         <section className="flex flex-col items-center justify-center gap-8 max-w-[33.2rem]">
