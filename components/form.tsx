@@ -78,7 +78,7 @@ export default function Form() {
     }  
 
  return (
-    <div className="bg-white p-6 md:p-0 md:pl-8 md:pr-8 md:pt-4 md:pb-9 w-full rounded-lg shadow-card">
+    <div className="bg-white p-6 md:p-0 md:pl-8 md:pr-8 md:pt-4 md:pb-10 w-full rounded-lg shadow-card">
   {!formSubmitted && (
 
 <form className="w-full mx-auto" onSubmit={handleSubmit}>
