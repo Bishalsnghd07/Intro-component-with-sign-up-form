@@ -60,6 +60,10 @@ In addition, I added some *password format validation, focus-visible outline, tr
 - **MObile First Workflow**📲
 - **JS Library**🎴
 
+## Code Quality
+
+![](https://img.shields.io/badge/eslint-fff?style=for-the-badge&logo=eslint&logoColor=fff&color=4930bd) ![](https://img.shields.io/badge/prettier-fff?style=for-the-badge&logo=prettier&logoColor=000&color=f3ae42)
+
 ## What I learned
 
 Client side form validation was tough, I was away from javascript. So, first I learnt Javascript basics, then I understand how DOM manipulation works, how event listener works.
