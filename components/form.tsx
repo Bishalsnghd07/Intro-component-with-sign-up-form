@@ -126,7 +126,7 @@ export default function Form() {
   )} {formSubmitted && (
     <div className={`text-gray-600 tracking-tight flex flex-col p-2`}>
       <h2 className="text-xl font-bold mb-2 text-center md:text-left"><span className='text-purple-700'>Thanks</span> for signing up!</h2>
-    <p className="text-base font-poppins mt-4 text-center md:text-left">Please check your email <span className="font-medium text-black">&quot;{(document.getElementById('email') as HTMLInputElement).value}&quot;</span> to confirm your registration.</p>
+    <p className="text-base font-poppins mt-4 text-center md:text-left">Please check your email <span className="font-medium text-black">{(document.getElementById('email') as HTMLInputElement).value}</span> to confirm your registration.</p>
       <button type="button" onClick={thanksForm} id="dismiss" className={`md:max-w-[22rem] font-medium text-lg mt-4 py-3 text-center bg-amber-600 rounded-lg text-white cursor-pointer hover:bg-amber-800 duration-500`}> Dismiss message
       </button>
     </div>
