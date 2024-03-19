@@ -87,21 +87,21 @@ export default function Form() {
     {firstNameError && (
     <img src="/images/icon-error.svg" alt="" className="absolute top-2 right-0 mt-2 mr-2" />
   )}
-  {firstNameError && <p className="text-red-500 text-sm mt-2 text-right">{firstNameError}</p>}
+  {firstNameError && <p className="text-red-500 text-sm mt-2 text-right italic">{firstNameError}</p>}
 </div>
   <div className="mb-5 mt-5 relative">
     <input type="lastName" id="lastName" className="bg-gray-50 border border-gray-300  text-lg rounded-lg focus:ring-purple-700 focus:border-purple-700 placeholder:font-bold font-bold block w-full p-2.5 py-[0.84rem] px-8 dark:focus:ring-purple-700 dark:focus:border-purple-700  focus-visible:outline-purple-700 focus-visible:outline-1 focus-visible:outline" placeholder="Last Name" />
     {lastNameError && (
     <img src="/images/icon-error.svg" alt="" className="absolute top-2 right-0 mt-2 mr-2" />
   )}
-  {lastNameError && <p className="text-red-500 text-sm mt-2 text-right">{lastNameError}</p>}
+  {lastNameError && <p className="text-red-500 text-sm mt-2 text-right italic">{lastNameError}</p>}
   </div>
   <div className="mb-5 mt-5 relative">
     <input type="email" id="email" className="bg-gray-50 border border-gray-300  text-lg rounded-lg focus:ring-purple-700 focus:border-purple-700 placeholder:font-bold font-bold block w-full p-2.5 py-[0.84rem] px-8 dark:focus:ring-purple-700 dark:focus:border-purple-700  focus-visible:outline-purple-700 focus-visible:outline-1 focus-visible:outline" placeholder="Email" />
     {emailError && (
     <img src="/images/icon-error.svg" alt="" className="absolute top-2 right-0 mt-2 mr-2" />
   )}
-  {emailError && <p className="text-red-500 text-sm mt-2 text-right">{emailError}</p>}
+  {emailError && <p className="text-red-500 text-sm mt-2 text-right italic">{emailError}</p>}
   </div>
 
   <div className="mb-5 relative">
@@ -114,7 +114,7 @@ export default function Form() {
   {passwordError && (
     <img src="/images/icon-error.svg" alt="" className="absolute top-2 right-0 mt-2 mr-2" />
   )}
-  {passwordError && <p className="text-red-500 text-sm mt-2 text-right">{passwordError}</p>}
+  {passwordError && <p className="text-red-500 text-sm mt-2 text-right italic">{passwordError}</p>}
 </div>
 
   <button type="submit" className="text-white bg-green-700 hover:bg-purple-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-lg md:text-xl w-full py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800  transition duration-500 shadow-card hover:translate-y-1 ease-linear ">CLAIM YOUR FREE TRIAL</button>
